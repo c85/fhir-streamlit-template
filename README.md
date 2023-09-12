@@ -4,6 +4,23 @@
 
 Streamlit has made the process of prototyping and developing SMART on FHIR applications incredibly straightforward, allowing you to quickly transform your ideas into live applications. This template provides a starting point for developing within the Cerner ecosystem, and includes options for both standalone and EHR launches. It also includes examples that use the following FHIR resources: Practitioner, Patient, and Observations.
 
+## Demo
+You can view this project live by clicking [here](https://fhir-streamlit-demo.azurewebsites.net)
+
+**Notes**:
+1. The Cerner login username and password is `portal`
+2. You can simulate an EHR launch with the patients below:
+   - [Wilma SMART](https://smart.cerner.com/smart/ec2458f2-1e24-41c8-b71b-0e701af7583d/apps/bc4d6296-312f-458a-95d9-d6e43b751369/?PAT_PersonId=12724065&VIS_EncntrId=97953483&USR_PersonId=12742069&username=portal&need_patient_banner=true)
+   - [Timmy SMART](https://smart.cerner.com/smart/ec2458f2-1e24-41c8-b71b-0e701af7583d/apps/bc4d6296-312f-458a-95d9-d6e43b751369/?PAT_PersonId=12724069&VIS_EncntrId=97953492&USR_PersonId=12742069&username=portal&need_patient_banner=true)
+   - [Nancy SMART](https://smart.cerner.com/smart/ec2458f2-1e24-41c8-b71b-0e701af7583d/apps/bc4d6296-312f-458a-95d9-d6e43b751369/?PAT_PersonId=12724066&VIS_EncntrId=97953477&USR_PersonId=12742069&username=portal&need_patient_banner=true)
+   - [Joe SMART](https://smart.cerner.com/smart/ec2458f2-1e24-41c8-b71b-0e701af7583d/apps/bc4d6296-312f-458a-95d9-d6e43b751369/?PAT_PersonId=12724067&VIS_EncntrId=97953480&USR_PersonId=12742069&username=portal&need_patient_banner=true)
+   - [Hailey SMART](https://smart.cerner.com/smart/ec2458f2-1e24-41c8-b71b-0e701af7583d/apps/bc4d6296-312f-458a-95d9-d6e43b751369/?PAT_PersonId=12724068&VIS_EncntrId=97953495&USR_PersonId=12742069&username=portal&need_patient_banner=true)
+   - [Fredrick SMART](https://smart.cerner.com/smart/ec2458f2-1e24-41c8-b71b-0e701af7583d/apps/bc4d6296-312f-458a-95d9-d6e43b751369/?PAT_PersonId=12724070&VIS_EncntrId=97953489&USR_PersonId=12742069&username=portal&need_patient_banner=true)
+   - [Valerie SMART](https://smart.cerner.com/smart/ec2458f2-1e24-41c8-b71b-0e701af7583d/apps/bc4d6296-312f-458a-95d9-d6e43b751369/?PAT_PersonId=12724071&VIS_EncntrId=97953486&USR_PersonId=12742069&username=portal&need_patient_banner=true)
+   - [Sandy SMART](https://smart.cerner.com/smart/ec2458f2-1e24-41c8-b71b-0e701af7583d/apps/bc4d6296-312f-458a-95d9-d6e43b751369/?PAT_PersonId=12742399&VIS_EncntrId=97953523&USR_PersonId=12742069&username=portal&need_patient_banner=true)
+   - [Baby Boy SMART](https://smart.cerner.com/smart/ec2458f2-1e24-41c8-b71b-0e701af7583d/apps/bc4d6296-312f-458a-95d9-d6e43b751369/?PAT_PersonId=12742397&VIS_EncntrId=97953504&USR_PersonId=12742069&username=portal&need_patient_banner=true)
+   - [Tim PETERS](https://smart.cerner.com/smart/ec2458f2-1e24-41c8-b71b-0e701af7583d/apps/bc4d6296-312f-458a-95d9-d6e43b751369/?PAT_PersonId=12742400&VIS_EncntrId=97953530&USR_PersonId=12742069&username=portal&need_patient_banner=true)
+
 ## Prerequisites
 
 - Python 3.x
