@@ -14,7 +14,7 @@ CERNER_CLIENT_SECRET = os.getenv("CERNER_CLIENT_SECRET")
 CERNER_TENANT_ID = os.getenv("CERNER_TENANT_ID")
 CERNER_AUTH_SERVER_URL = f"https://authorization.cerner.com/tenants/{CERNER_TENANT_ID}/protocols/oauth2/profiles/smart-v1/personas/provider/authorize"
 CERNER_TOKEN_ENDPOINT = f"https://authorization.cerner.com/tenants/{CERNER_TENANT_ID}/protocols/oauth2/profiles/smart-v1/token"
-CERNER_REDIRECT_URI = "https://fhir-app-template.streamlit.app"
+CERNER_REDIRECT_URI = "https://fhir-app-template.streamlit.app/"
 CERNER_AUDIENCE_URL = f"https://fhir-ehr.cerner.com/r4/{CERNER_TENANT_ID}"
 
 def get_fhir_url():
