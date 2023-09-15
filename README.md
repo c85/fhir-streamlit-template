@@ -5,7 +5,7 @@
 Streamlit has made the process of prototyping and developing SMART on FHIR applications incredibly straightforward, allowing you to quickly transform your ideas into live applications. This template provides a starting point for developing within the Cerner ecosystem, and includes options for both standalone and EHR launches. It also includes examples that use the following FHIR resources: Practitioner, Patient, and Observations.
 
 ## Demo
-You can view this project live by clicking [here](https://fhir-streamlit-demo.azurewebsites.net)
+You can view this project live by clicking [here](https://fhir-app-template.streamlit.app)
 
 **Notes**:
 1. The Cerner login username and password is `portal`
